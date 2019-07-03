@@ -1,0 +1,140 @@
+.header{
+	background-image: url(../img/header223.jpg);
+	
+	height: 150px;
+	width: 100%;
+}
+
+.menubar ul{
+	background-image: url(../img/4.gif);
+	opacity: 20%;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.menubar li{
+	float: left;
+}
+.menubar li a{
+	display: block;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+}
+.menubar li a:hover{
+	background-color: orange;
+}
+
+.menu1 ul{
+	background-image: url(../img/11.gif);
+	background-color: #3CB371;
+	width: 10%;
+	height: 950px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.menu4 ul{
+	background-image: url(../img/11.gif);
+	background-color: #3CB371;
+	width: 10%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.menu1 li a{
+	display: block;
+	text-decoration: white;
+	font-family: arial;
+	padding: 15px 18px;
+	float: center;
+	text-align: center;
+
+
+}
+.menu1 li a:visited{
+	color: white;
+}
+.menu1 li a:hover{
+	background-color: orange;
+}
+.menu4 li a{
+	display: block;
+	text-decoration: white;
+	font-family: arial;
+	padding: 15px 18px;
+	float: center;
+	text-align: center;
+
+
+}
+.menu4 li a:visited{
+	color: white;
+}
+.menu4 li a:hover{
+	background-color: orange;
+}
+
+.menu2{
+	background-color: grey;
+	width: 90%;
+	height: 950px;
+	float: left;
+}
+.menu3{
+	background-color: grey;
+	width: 90%;
+	height: 100%;
+	float: left;
+	
+}
+.menu2 p{
+	padding: 5px;
+}
+.footer{
+	background-image: url(../img/footer223.jpg);
+	width: 100%;
+	height: 70px;
+	bottom: 0px;
+	position: bottom;
+	margin-bottom: 1px;
+	padding: 0;
+	overflow: hidden;
+}
+.footer p{
+	color: white;
+	text-align: center;
+	padding: -15px 0 10px 5px;
+}
+.menu2 table{
+}
+
+.menugoogle{
+	background-image: url(../img/1234.jpg);
+	width: 100%;
+	height: 25px;
+	float: left;
+	margin: 0;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.menunama {
+	background-color: grey;
+	float left;
+	width: 100%;
+	height: 750px;
+	margin: 0;
+	padding: 0;
+}
+.menuklik{
+	padding: 20px;
+	margin: 0;
+}

@@ -1,0 +1,79 @@
+
+	.header{
+	background-image: url(../img/11.gif);
+	
+	height: 150px;
+	width: 100%;
+}
+.header h1{
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	color: white;
+	font-size: 50px;
+	font-family: Comic Sans MS;
+		text-decoration:underline;
+}
+.menubar ul{
+	background-image: url(../img/4.gif);
+	background-color: #008080;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.menubar li{
+	float: left;
+}
+.menubar li a{
+	display: block;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+}
+.menubar li a:hover{
+	background-color: orange;
+}
+.menu {
+	background-color: grey;
+	width: 100% ;
+	height: 2700px;
+	margin-top: -40px;
+}
+
+form {
+    width:1400px;
+    margin-left: 65px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+    width: 600px;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.menu h1{
+	font-family: Comic Sans MS;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+

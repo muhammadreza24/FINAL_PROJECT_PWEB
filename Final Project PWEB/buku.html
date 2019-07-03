@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUEST BOOK</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ <div class="header">
+  
+</div>
+<div class="menubar">
+    <ul>
+      <li><a href="index.php">Home</a></li>
+    <li><a aling="center" href="buku.html" class="btn btn-primary btn-lg">Buku Tamu</a></li>
+      <li><a aling="center" href="lihat.php" class="btn btn-info btn-lg">Lihat Pengunjung</a></li>
+      <li><a href="pencarian.html">Pencarian [JS]</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li></li>
+    </ul>
+</div>  
+
+<div class="menu1">
+  <ul>
+    <font color="white">
+      <li><a aling="center" href="buku.html" class="btn btn-primary btn-lg">Buku Tamu</a></li>
+      <li><a aling="center" href="lihat.php" class="btn btn-info btn-lg">Lihat Pengunjung</a></li>
+      <!--<li> <a href="materi.html">Materi </a></li>
+      <li> <a href="pencarian.html">Pencarian</a></li>-->
+  
+  </font></ul>
+</div>
+
+<div class="menu2">
+  
+    <br>
+    <div class="container">   
+   <div align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria">FORM PEMBAYARAN </font></strong></div>
+<form action="proses.php" method="post" enctype="multipart/form-data"> <!-- form akan mengirim data ke dalam prose. php menggunakan method post metode yg aman, atribut enctype wajib di sertakan untuk form upload -->
+  <div class="form-group">
+    <label for="nama" ><font color="white" size="5">Nama Pelanggan:</font></label>
+    <input type="text" name="nama" class="form-control" id="nama">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white" size="5">Nama Barang :</font></label>
+    <input type="text" name="nama_barang" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white" size="5">Jumlah :</font></label>
+    <input type="text" name="jumlah" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white" size="5">Harga Satuan :</font></label>
+    <input type="text" name="harga" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white" size="5">Bukti Transaksi :</font></label>
+    <input type="file" name="file">
+  </div>
+  <br>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+</form>
+   </div>
+<br>
+</div>
+
+<div class="footer">
+  
+</div>
+ 
+</body>
+</html>
